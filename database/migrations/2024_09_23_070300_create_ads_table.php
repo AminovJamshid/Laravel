@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('description');
             $table->integer('price');
             $table->integer('rooms');
-            $table->integer('address');
+            $table->string('address');
             $table->enum('gender', ['male', 'female']);
             $table->foreignId('user_id')->constrained();
             $table->foreignId('branch_id')->constrained();
