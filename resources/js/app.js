@@ -1,4 +1,7 @@
 import './bootstrap';
+import './hously/app.js';
+import './hously/plugins.init.js';
+
 
 import Alpine from 'alpinejs';
 
